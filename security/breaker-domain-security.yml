@@ -1,0 +1,12 @@
+generated: '2026-07-18'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: brkr.jp
+  https: false
+domains:
+- domain: brkr.jp
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
